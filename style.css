@@ -6,6 +6,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	background-color: green
 }
 * {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,7 +71,7 @@ body {
 }
 #gameBoard {
 	/* border: 10px tomato solid; */
-	background-color: tomato;
+	/* background-color: tomato; */
 	max-width: 100%;
 	display: grid;
 	grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
